@@ -1,0 +1,370 @@
+[2025-03-10T08:00:40.657+0100] {processor.py:186} INFO - Started process (PID=62258) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:00:40.658+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:00:40.659+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:00:40.659+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:00:40.828+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:00:40.828+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:00:40.980+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:00:40.978+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:00:40.980+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:00:41.095+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.439 seconds
+[2025-03-10T08:01:18.296+0100] {processor.py:186} INFO - Started process (PID=62535) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:01:18.296+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:01:18.297+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:01:18.297+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:01:18.367+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:01:18.367+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:01:18.582+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:01:18.582+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:01:18.583+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:01:18.740+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.445 seconds
+[2025-03-10T08:01:53.866+0100] {processor.py:186} INFO - Started process (PID=62785) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:01:53.867+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:01:53.867+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:01:53.867+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:01:53.938+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:01:53.938+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:01:54.021+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:01:54.020+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:01:54.021+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:01:54.121+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.256 seconds
+[2025-03-10T08:02:29.541+0100] {processor.py:186} INFO - Started process (PID=63030) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:02:29.542+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:02:29.542+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:02:29.542+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:02:29.617+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:02:29.617+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:02:29.702+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:02:29.702+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:02:29.702+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:02:29.802+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.262 seconds
+[2025-03-10T08:03:06.841+0100] {processor.py:186} INFO - Started process (PID=63282) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:03:06.842+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:03:06.842+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:03:06.842+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:03:06.916+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:03:06.916+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:03:07.003+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:03:07.002+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:03:07.003+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:03:07.108+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.268 seconds
+[2025-03-10T08:03:41.554+0100] {processor.py:186} INFO - Started process (PID=63532) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:03:41.555+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:03:41.555+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:03:41.555+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:03:41.626+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:03:41.626+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:03:41.710+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:03:41.709+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:03:41.710+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:03:41.813+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.260 seconds
+[2025-03-10T08:04:13.551+0100] {processor.py:186} INFO - Started process (PID=63756) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:04:13.552+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:04:13.553+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:04:13.553+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:04:13.691+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:04:13.691+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:04:13.877+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:04:13.876+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:04:13.877+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:04:13.984+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.434 seconds
+[2025-03-10T08:05:08.561+0100] {processor.py:186} INFO - Started process (PID=64118) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:05:08.562+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:05:08.562+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:08.562+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:05:08.681+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:08.681+0100] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-10T08:05:08.824+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:08.822+0100] {dagbag.py:387} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 33, in <module>
+    from airflow.providers.postgres.dialects.postgres import PostgresDialect
+  File "/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/postgres/dialects/postgres.py", line 21, in <module>
+    from airflow.providers.common.sql.dialects.dialect import Dialect
+ModuleNotFoundError: No module named 'airflow.providers.common.sql.dialects'
+[2025-03-10T08:05:08.824+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:05:08.941+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.381 seconds
+[2025-03-10T08:05:36.892+0100] {processor.py:186} INFO - Started process (PID=64261) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:05:36.892+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:05:36.893+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:36.893+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:05:37.115+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:05:37.210+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.209+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:pipeline_with_s3_hook
+[2025-03-10T08:05:37.213+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.213+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:pipeline_with_s3_hook
+[2025-03-10T08:05:37.215+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.215+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:pipeline_with_s3_hook
+[2025-03-10T08:05:37.218+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.217+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:pipeline_with_s3_hook
+[2025-03-10T08:05:37.219+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.219+0100] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:pipeline_with_s3_hook
+[2025-03-10T08:05:37.221+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.221+0100] {override.py:1930} INFO - Created Permission View: can create on DAG Run:pipeline_with_s3_hook
+[2025-03-10T08:05:37.223+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.223+0100] {override.py:1930} INFO - Created Permission View: can read on DAG Run:pipeline_with_s3_hook
+[2025-03-10T08:05:37.223+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.223+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:05:37.228+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.228+0100] {dag.py:3262} INFO - Creating ORM DAG for pipeline_with_s3_hook
+[2025-03-10T08:05:37.232+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:05:37.232+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:05:37.240+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.349 seconds
+[2025-03-10T08:06:07.997+0100] {processor.py:186} INFO - Started process (PID=64524) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:06:07.997+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:06:07.998+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:06:07.998+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:06:08.196+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:06:08.254+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:06:08.254+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:06:08.267+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:06:08.267+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:06:08.274+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.279 seconds
+[2025-03-10T08:06:39.099+0100] {processor.py:186} INFO - Started process (PID=64784) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:06:39.099+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:06:39.100+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:06:39.100+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:06:39.267+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:06:39.331+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:06:39.331+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:06:39.341+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:06:39.341+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:06:39.349+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.251 seconds
+[2025-03-10T08:07:10.076+0100] {processor.py:186} INFO - Started process (PID=65040) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:07:10.077+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:07:10.077+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:07:10.077+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:07:10.257+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:07:10.317+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:07:10.317+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:07:10.327+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:07:10.327+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:07:10.334+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.259 seconds
+[2025-03-10T08:07:57.969+0100] {processor.py:186} INFO - Started process (PID=65201) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:07:57.970+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:07:57.970+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:07:57.970+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:07:58.193+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:07:58.248+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:07:58.248+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:07:58.259+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:07:58.258+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:07:58.266+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.298 seconds
+[2025-03-10T08:10:44.980+0100] {processor.py:186} INFO - Started process (PID=65451) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:10:44.981+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:10:44.981+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:10:44.981+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:10:45.203+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:10:45.260+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:10:45.260+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:10:45.272+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:10:45.272+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:10:45.279+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.301 seconds
+[2025-03-10T08:11:16.347+0100] {processor.py:186} INFO - Started process (PID=65732) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:11:16.348+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:11:16.348+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:11:16.348+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:11:16.532+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:11:16.586+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:11:16.586+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:11:16.596+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:11:16.596+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:11:16.605+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.259 seconds
+[2025-03-10T08:11:47.439+0100] {processor.py:186} INFO - Started process (PID=65990) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:11:47.439+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:11:47.439+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:11:47.439+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:11:47.622+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:11:47.681+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:11:47.681+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:11:47.691+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:11:47.691+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:11:47.697+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.260 seconds
+[2025-03-10T08:12:18.319+0100] {processor.py:186} INFO - Started process (PID=66249) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:12:18.320+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:12:18.320+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:12:18.320+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:12:18.493+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:12:18.548+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:12:18.547+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:12:18.557+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:12:18.557+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:12:18.565+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.247 seconds
+[2025-03-10T08:12:49.252+0100] {processor.py:186} INFO - Started process (PID=66504) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:12:49.253+0100] {processor.py:914} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:12:49.253+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:12:49.253+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:12:49.421+0100] {processor.py:925} INFO - DAG(s) 'pipeline_with_s3_hook' retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:12:49.486+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:12:49.486+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T08:12:49.496+0100] {logging_mixin.py:190} INFO - [2025-03-10T08:12:49.496+0100] {dag.py:4180} INFO - Setting next_dagrun for pipeline_with_s3_hook to 2025-03-09 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-10T08:12:49.503+0100] {processor.py:208} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.252 seconds
+[2025-03-10T08:23:45.848+0100] {processor.py:161} INFO - Started process (PID=69314) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:23:45.849+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:23:45.849+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:23:45.849+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:23:45.850+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:23:45.850+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:23:45.850+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:23:45.905+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.057 seconds
+[2025-03-10T08:24:16.507+0100] {processor.py:161} INFO - Started process (PID=69492) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:24:16.507+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:24:16.507+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:24:16.507+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:24:16.508+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:24:16.508+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:24:16.508+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:24:16.570+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.063 seconds
+[2025-03-10T08:24:47.281+0100] {processor.py:161} INFO - Started process (PID=69683) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:24:47.281+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:24:47.282+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:24:47.282+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:24:47.283+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:24:47.282+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:24:47.283+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:24:47.346+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.066 seconds
+[2025-03-10T08:25:18.180+0100] {processor.py:161} INFO - Started process (PID=69849) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:25:18.181+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:25:18.181+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:25:18.181+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:25:18.182+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:25:18.182+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:25:18.182+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:25:18.246+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.066 seconds
+[2025-03-10T08:25:48.987+0100] {processor.py:161} INFO - Started process (PID=70015) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:25:48.987+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:25:48.987+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:25:48.987+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:25:48.988+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:25:48.988+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:25:48.988+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:25:49.054+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.068 seconds
+[2025-03-10T08:26:19.878+0100] {processor.py:161} INFO - Started process (PID=70191) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:26:19.878+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:26:19.878+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:26:19.878+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:26:19.879+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:26:19.879+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:26:19.879+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:26:19.937+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.059 seconds
+[2025-03-10T08:26:50.991+0100] {processor.py:161} INFO - Started process (PID=70360) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:26:50.992+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:26:50.992+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:26:50.992+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:26:50.993+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:26:50.993+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:26:50.993+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:26:51.050+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.059 seconds
+[2025-03-10T08:27:22.075+0100] {processor.py:161} INFO - Started process (PID=70549) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:27:22.075+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:27:22.075+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:27:22.075+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:27:22.076+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:27:22.076+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:27:22.076+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:27:22.134+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.060 seconds
+[2025-03-10T08:27:53.088+0100] {processor.py:161} INFO - Started process (PID=70715) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:27:53.089+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:27:53.089+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:27:53.089+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:27:53.090+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:27:53.090+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:27:53.090+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:27:53.148+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.061 seconds
+[2025-03-10T08:28:24.209+0100] {processor.py:161} INFO - Started process (PID=70890) to work on /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:28:24.209+0100] {processor.py:830} INFO - Processing file /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py for tasks to queue
+[2025-03-10T08:28:24.209+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:28:24.209+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:28:24.210+0100] {logging_mixin.py:188} INFO - [2025-03-10T08:28:24.210+0100] {dagbag.py:348} ERROR - Failed to import: /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+Traceback (most recent call last):
+  File "/Users/salematoukounta/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-03-10T08:28:24.210+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py
+[2025-03-10T08:28:24.271+0100] {processor.py:183} INFO - Processing /Users/salematoukounta/airflow/dags/pipeline_with_s3_hook.py took 0.063 seconds

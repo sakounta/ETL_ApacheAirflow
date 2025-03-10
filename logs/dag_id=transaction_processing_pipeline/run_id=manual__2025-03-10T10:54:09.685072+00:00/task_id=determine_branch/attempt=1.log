@@ -1,0 +1,30 @@
+[2025-03-10T11:55:57.932+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T11:55:57.936+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transaction_processing_pipeline.determine_branch manual__2025-03-10T10:54:09.685072+00:00 [queued]>
+[2025-03-10T11:55:57.938+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transaction_processing_pipeline.determine_branch manual__2025-03-10T10:54:09.685072+00:00 [queued]>
+[2025-03-10T11:55:57.938+0100] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-10T11:55:57.941+0100] {taskinstance.py:2890} INFO - Executing <Task(BranchPythonOperator): determine_branch> on 2025-03-10 10:54:09.685072+00:00
+[2025-03-10T11:55:57.944+0100] {standard_task_runner.py:72} INFO - Started process 22059 to run task
+[2025-03-10T11:55:57.946+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'transaction_processing_pipeline', 'determine_branch', 'manual__2025-03-10T10:54:09.685072+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/var/folders/77/x0zgg14j4mv45pmn3j9n0_ym0000gn/T/tmp37fgntid']
+[2025-03-10T11:55:57.947+0100] {standard_task_runner.py:105} INFO - Job 89: Subtask determine_branch
+[2025-03-10T11:55:57.960+0100] {task_command.py:467} INFO - Running <TaskInstance: transaction_processing_pipeline.determine_branch manual__2025-03-10T10:54:09.685072+00:00 [running]> on host mac.lan
+[2025-03-10T11:55:57.984+0100] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kounta' AIRFLOW_CTX_DAG_ID='transaction_processing_pipeline' AIRFLOW_CTX_TASK_ID='determine_branch' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T10:54:09.685072+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T10:54:09.685072+00:00'
+[2025-03-10T11:55:57.985+0100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T11:55:57.985+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T11:55:57.985+0100] {logging_mixin.py:190} INFO - Current task name:determine_branch state:running start_date:2025-03-10 10:55:57.936608+00:00
+[2025-03-10T11:55:57.985+0100] {logging_mixin.py:190} INFO - Dag name:transaction_processing_pipeline and current dag run status:running
+[2025-03-10T11:55:57.986+0100] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T11:55:57.986+0100] {baseoperator.py:423} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2025-03-10T11:55:57.988+0100] {logging_mixin.py:190} INFO - Branching action: filter_by_location
+[2025-03-10T11:55:57.989+0100] {python.py:240} INFO - Done. Returned value was: filtering.filter_by_location
+[2025-03-10T11:55:57.989+0100] {branch.py:38} INFO - Branch into filtering.filter_by_location
+[2025-03-10T11:55:57.989+0100] {skipmixin.py:233} INFO - Following branch ('filtering.filter_by_location',)
+[2025-03-10T11:55:57.991+0100] {skipmixin.py:281} INFO - Skipping tasks [('grouping.groupby_transaction_type', -1)]
+[2025-03-10T11:55:57.998+0100] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T11:55:57.999+0100] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=transaction_processing_pipeline, task_id=determine_branch, run_id=manual__2025-03-10T10:54:09.685072+00:00, execution_date=20250310T105409, start_date=20250310T105557, end_date=20250310T105557
+[2025-03-10T11:55:58.003+0100] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T11:55:58.004+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T11:55:58.004+0100] {logging_mixin.py:190} INFO - Dag name:transaction_processing_pipeline queued_at:2025-03-10 10:54:09.697250+00:00
+[2025-03-10T11:55:58.004+0100] {logging_mixin.py:190} INFO - Task hostname:mac.lan operator:BranchPythonOperator
+[2025-03-10T11:55:58.042+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T11:55:58.049+0100] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T11:55:58.050+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
