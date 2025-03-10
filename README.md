@@ -28,6 +28,6 @@ Avant d'exécuter ce projet, assure-toi que tu as les éléments suivants instal
 
 1. Clone ce projet sur ton ordinateur :
    ```bash
-   git clone https://github.com/ton-repository/transaction-processing-pipeline.git
+   git clone https://github.com/sakounta/ETL_ApacheAirflow.git
    cd transaction-processing-pipeline
 
